@@ -127,3 +127,24 @@
     filter: invert(1);
   }
 }
+
+.heading {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 36px;
+  }
+  
+  @media (max-width: 600px) {
+    .heading {
+      font-size: 36px;
+    }
+  }
+
+  .container {
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      margin-top: 20px;
+    }
+  }
