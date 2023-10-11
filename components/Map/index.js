@@ -5,8 +5,11 @@ import {AuthenticationType} from 'azure-maps-control'
 const option = {
     authOptions: {
         authType: AuthenticationType.subscriptionKey,
-        subscriptionKey: 'eb30ba0e-e39d-4f50-bcd7-410f41f7fe08'
-	}
+        subscriptionKey: 'VWpVILVqqcnRZ-bpNXdJkNNaQMYh7k9n2UYiCQ8t4I8'
+	},
+	center: [-100.01, 45.01],
+	zoom: 2,
+	view: 'Auto',
 }
 
 
